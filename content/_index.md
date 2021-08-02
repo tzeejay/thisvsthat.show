@@ -51,17 +51,17 @@ date = "2021-07-31"
 
 | "id" | "given_by"            | "correct_predictions" | "total_predictions" | "correct_percent" |
 | ---- | --------------------- | --------------------- | ------------------- | ----------------- |
-| 1    | "Ron Zaras"           | 31                    | 46                  | 67                |
-| 2    | "Suppy"               | 10                    | 15                  | 66                |
+| 1    | "Suppy"               | 11                    | 16                  | 68                |
+| 2    | "Ron Zaras"           | 32                    | 47                  | 68                |
 | 3    | "Darren Parsons"      | 2                     | 3                   | 66                |
-| 4    | "Zac Mertens"         | 9                     | 14                  | 64                |
+| 4    | "Zac Mertens"         | 10                    | 15                  | 66                |
 | 5    | "Hertrech Eugene Jr." | 23                    | 37                  | 62                |
-| 6    | "Micah Diaz"          | 13                    | 21                  | 61                |
-| 7    | "Brian Scotto"        | 31                    | 51                  | 60                |
-| 8    | "Vinny Anatra"        | 29                    | 49                  | 59                |
-| 9    | "John Naderi"         | 19                    | 33                  | 57                |
-| 10   | "John Chase"          | 12                    | 21                  | 57                |
-| 11   | "Dan Sommer"          | 24                    | 44                  | 54                |
+| 6    | "Brian Scotto"        | 32                    | 52                  | 61                |
+| 7    | "Vinny Anatra"        | 30                    | 50                  | 60                |
+| 8    | "Micah Diaz"          | 13                    | 22                  | 59                |
+| 9    | "John Chase"          | 12                    | 21                  | 57                |
+| 10   | "John Naderi"         | 19                    | 33                  | 57                |
+| 11   | "Dan Sommer"          | 25                    | 45                  | 55                |
 | 12   | "Larry Chen"          | 3                     | 9                   | 33                |
 
 </div>
@@ -72,14 +72,14 @@ date = "2021-07-31"
 
 | "id" | "given_by"            | "correct_predictions" | "total_predictions" | "correct_percent" |
 | ---- | --------------------- | --------------------- | ------------------- | ----------------- |
-| 1    | "Ron Zaras"           | 31                    | 46                  | 67                |
+| 1    | "Ron Zaras"           | 32                    | 47                  | 68                |
 | 2    | "Hertrech Eugene Jr." | 23                    | 37                  | 62                |
-| 3    | "Micah Diaz"          | 13                    | 21                  | 61                |
-| 4    | "Brian Scotto"        | 31                    | 51                  | 60                |
-| 5    | "Vinny Anatra"        | 29                    | 49                  | 59                |
+| 3    | "Brian Scotto"        | 32                    | 52                  | 61                |
+| 4    | "Vinny Anatra"        | 30                    | 50                  | 60                |
+| 5    | "Micah Diaz"          | 13                    | 22                  | 59                |
 | 6    | "John Naderi"         | 19                    | 33                  | 57                |
 | 7    | "John Chase"          | 12                    | 21                  | 57                |
-| 8    | "Dan Sommer"          | 24                    | 44                  | 54                |
+| 8    | "Dan Sommer"          | 25                    | 45                  | 55                |
 
 </div>
 
@@ -89,12 +89,12 @@ date = "2021-07-31"
 
 | "id" | "given_by"            | "correct_predictions" | "total_predictions" | "correct_percent" |
 | ---- | --------------------- | --------------------- | ------------------- | ----------------- |
-| 1    | "Ron Zaras"           | 31                    | 46                  | 67                |
+| 1    | "Ron Zaras"           | 32                    | 47                  | 68                |
 | 2    | "Hertrech Eugene Jr." | 23                    | 37                  | 62                |
-| 3    | "Brian Scotto"        | 31                    | 51                  | 60                |
-| 4    | "Vinny Anatra"        | 29                    | 49                  | 59                |
+| 3    | "Brian Scotto"        | 32                    | 52                  | 61                |
+| 4    | "Vinny Anatra"        | 30                    | 50                  | 60                |
 | 5    | "John Naderi"         | 19                    | 33                  | 57                |
-| 6    | "Dan Sommer"          | 24                    | 44                  | 54                |
+| 6    | "Dan Sommer"          | 25                    | 45                  | 55                |
 
 </div>
 
@@ -104,10 +104,10 @@ date = "2021-07-31"
 
 | "id" | "given_by"     | "correct_predictions" | "total_predictions" | "correct_percent" |
 | ---- | -------------- | --------------------- | ------------------- | ----------------- |
-| 1    | "Ron Zaras"    | 31                    | 46                  | 67                |
-| 2    | "Brian Scotto" | 31                    | 51                  | 60                |
-| 3    | "Vinny Anatra" | 29                    | 49                  | 59                |
-| 4    | "Dan Sommer"   | 24                    | 44                  | 54                |
+| 1    | "Ron Zaras"    | 32                    | 47                  | 68                |
+| 2    | "Brian Scotto" | 32                    | 52                  | 61                |
+| 3    | "Vinny Anatra" | 30                    | 50                  | 60                |
+| 4    | "Dan Sommer"   | 25                    | 45                  | 55                |
 
 </div>
 
