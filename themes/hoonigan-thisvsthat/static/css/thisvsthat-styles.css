@@ -153,6 +153,18 @@ footer {
 	flex-shrink: 0;
 }
 
+.o-main-hoonigan-playlist-wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;	
+}
+
+.o-main-hoonigan-playlist-wrap img {
+	margin: 25px 0;
+	max-width: 250px;
+}
+
 footer a {
 	color: #fff;
 	text-decoration: none;

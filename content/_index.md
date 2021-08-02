@@ -6,10 +6,10 @@ date = "2021-07-31"
 
 
 <div class="o-main-intro">
-	<h1>Have you ever asked yourself which one of the Hoonigans is best at predicting the race winner on This vs. That ?</h1>
+	<h1>Have you ever asked yourself which one of the Hoonigans is best at predicting the race winner on <a href="https://www.youtube.com/playlist?list=PLhU72li4fhIca_hXD0v8PFHRahreBuPJa" target="_blank">This vs. That</a> ?</h1>
 </div>
 <div class="o-main-second">
-	<h1>You most likely haven't, but in case you're curious about it now, I figured it would be fun to collect the information in a sane & standardised way. That way one is able to answer the same questions over time with a changing dataset as new This vs. That episodes are released.</h1>
+	<h1>You most likely haven't, but in case you're curious about it now, I figured it would be fun to collect the information in a sane & standardised way. That way one is able to answer the same questions over time with a changing dataset as new <a href="https://www.youtube.com/playlist?list=PLhU72li4fhIca_hXD0v8PFHRahreBuPJa" target="_blank">This vs. That</a> episodes are released.</h1>
 </div>
 
 <div class="o-main-hoonigans-stats">
@@ -109,4 +109,9 @@ date = "2021-07-31"
 | 3    | "Vinny Anatra" | 29                    | 49                  | 59                |
 | 4    | "Dan Sommer"   | 24                    | 44                  | 54                |
 
+</div>
+
+<div class="o-main-hoonigan-playlist-wrap">
+	<h3>Watch This vs. That Episodes</h3>
+	<a href="https://www.youtube.com/playlist?list=PLhU72li4fhIca_hXD0v8PFHRahreBuPJa" target="_blank"><img src="/img/yt_logo_rgb_light.png" alt="Youtube Logo"></a>
 </div>
