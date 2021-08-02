@@ -7,3 +7,10 @@ theme = "hoonigan-thisvsthat"
   [markup.goldmark]
 	[markup.goldmark.renderer]
 	  unsafe = true
+
+[outputs]
+page = ["HTML"]
+home = ["HTML"]
+section = ["HTML","RSS"]
+taxonomyTerm = ["HTML"]
+taxonomy = ["HTML"]
