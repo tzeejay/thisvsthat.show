@@ -2,47 +2,48 @@ name: Build Website
 
 on:
   push:
-	branches: 
-	  - main
+    branches: 
+      - master
 
 jobs:
   build:
-	name: Run Hugo and Deploy
-	timeout-minutes: 3
-	runs-on: ubuntu-latest
+    name: Run Hugo and Deploy
+    timeout-minutes: 3
+    runs-on: ubuntu-latest
 
-	steps:
-	- uses: actions/checkout@v2
-	  with:
-		fetch-depth: 0
-	
-	- name: Install SSH key
-	  env:
-		deploy_key: ${{ secrets.SSH_PRIVATE_KEY }}
-		SSH_AUTH_SOCK: /tmp/ssh_agent.sock
-	  run: |
-		mkdir -p ~/.ssh
-		ssh-keyscan 212.12.47.3 >> ~/.ssh/known_hosts
-		ssh-agent -a $SSH_AUTH_SOCK > /dev/null
-		echo "${deploy_key}" | tr -d '\r' | ssh-add - > /dev/null
-	
-	- name: Download & Install Hugo
-	  run: |
-		wget https://github.com/gohugoio/hugo/releases/download/v0.86.1/hugo_0.86.1_Linux-64bit.deb
-		sudo dpkg -i hugo_0.86.1_Linux-64bit.deb
-		hugo version
-		
-	- name: Build Website
-	  run: |
-		hugo
-		echo "Finished creating website"
-		
-	- name: Fix hugo dates
-	  run: |
-		cp -R public pub
-		echo "Finished copying to new folder to fix the dates bug"
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    
+    - name: Install SSH key
+      env:
+        deploy_key: ${{ secrets.SSH_PRIVATE_KEY }}
+        SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+      run: |
+        mkdir -p ~/.ssh
+        ssh-keyscan 212.12.47.3 >> ~/.ssh/known_hosts
+        ssh-agent -a $SSH_AUTH_SOCK > /dev/null
+        echo "${deploy_key}" | tr -d '\r' | ssh-add - > /dev/null
+    
+    - name: Download & Install Hugo
+      run: |
+        wget https://github.com/gohugoio/hugo/releases/download/v0.83.1/hugo_0.83.1_Linux-64bit.deb
+        sudo dpkg -i hugo_0.83.1_Linux-64bit.deb
+        hugo version
+        
+    - name: Build Website
+      run: |
+        hugo
+        echo "Finished creating website"
+        
+    - name: Fix hugo dates
+      run: |
+        cp -R public pub
+        echo "Finished copying to new folder to fix the dates bug"
 
-	- name: Copy Website to Pi
-	  env:
-		SSH_AUTH_SOCK: /tmp/ssh_agent.sock
-	  run: rsync -vr -I --delete-during ./pub/ thisvsthat@212.12.47.3:/usr/local/thisvsthatshow/static_root/
+    - name: Copy Website to Pi
+      env:
+        SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+      run: rsync -vr -I --delete-during ./pub/ pi@212.12.47.3:/usr/local/tzeejaycom/static_root/
+
