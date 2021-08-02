@@ -1,0 +1,9 @@
+baseURL = "https://thisvsthat.show"
+languageCode = "en-us"
+title = "Hoonigan /// This vs. That"
+theme = "hoonigan-thisvsthat"
+
+[markup]
+  [markup.goldmark]
+	[markup.goldmark.renderer]
+	  unsafe = true

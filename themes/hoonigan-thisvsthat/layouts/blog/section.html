@@ -1,0 +1,30 @@
+{{ partial "header.html" . }}
+
+<section class="blog-wrap">
+	<h1>Blog</h1>
+	{{ $allBlogPosts2 := (where (where .Site.RegularPages "Section" "blog") ".Params.indexable" "!=" "false") }}
+	{{ range $allBlogPosts2.GroupByPublishDate "2006" }}
+	{{ if ne .Key "0001" }}
+		<section class="blog-year">
+			<h2 class="blog-year-header">
+				{{ replace .Key "0001" "" }}<sup class="blog-count">&nbsp;{{ len .Pages }}</sup>
+			</h2>
+			{{range .Pages.GroupByDate "January" }}
+				<section class="blog-month">
+					<h3 class="blog-month-header">{{ .Key }}<sup class="blog-count">&nbsp;{{ len .Pages }}</sup></h3>
+					<div class="blog-blog-posts">
+						{{ range .Pages }}
+						<article class="arichive-blog-post">
+							<a href="{{ .Permalink }}" class="blog-blog-post-link">{{ .Title }} • {{ .Date.Format "02.01.2006" }}</a>
+						</article>
+						{{ end }}
+					</div>
+				</section>
+			{{ end }}
+		</section>
+	{{ end }}
+	{{ end }}
+	<h5 class="blog-wrap__rss"><a href="/blog/index.xml" target="_blank">RSS Feed</a></h5>
+</section>
+
+{{ partial "footer.html" . }}

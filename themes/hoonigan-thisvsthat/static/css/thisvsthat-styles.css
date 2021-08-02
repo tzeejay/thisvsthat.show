@@ -1,0 +1,320 @@
+@charset "UTF-8";
+
+
+/* * {
+	outline: 1px dotted red;
+} */
+ 
+
+*, *:before, *:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: Helvetica Neue;
+	height: 100%;
+	width: 100%;
+	line-height: 1.25;
+}
+
+body {
+	background-color: #fff;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	color: #000;
+}
+
+header {
+	flex-shrink: 0;
+	background: #000;
+	color: #fff;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a {
+	color: #000;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 15px;
+	font-size: 18px;
+	flex-grow: 1;
+}
+
+.content {
+	max-width:1200px;
+	margin: 0 auto;
+}
+
+.o-header-nav {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	width: 100%;
+	height: 75px;
+	padding-right: 50px;
+}
+
+.o-header-nav h2 {
+	margin: 0 15px;
+}
+
+.o-main-intro {
+	height: calc(100vh - 75px);
+	width: 45vw;
+	max-width: 1200px;
+	display: flex;
+	align-content: center;
+	align-items: center;
+}
+
+.o-main-second {
+	height: 100vh;
+	width: 45vw;
+	max-width: 1200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.o-main-hoonigans-stats {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.o-main-hoonigans-stats div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 25px 35px;
+	width: 850px;
+}
+
+.o-main-hoonigans-stats div:nth-last-child {
+	margin
+}
+
+.o-main-hoonigans-stats div h3 {
+	margin: 15px 0;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td:not(:nth-child(1)) {
+	padding-right: 30px;
+}
+
+tr {
+	margin: 10px;
+}
+
+tr:nth-of-type(odd) {
+	background: #eee;
+}
+
+thead tr th {
+	padding: 10px;
+}
+
+th { 
+	background: #333;
+	color: white;
+}
+
+td, th { 
+	padding: 6px;
+	border: 1px solid #ccc;
+	text-align: left;
+}
+
+footer {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	background-color: #000;
+	color: #fff;
+	padding: 20px 0;
+	margin-top: 50px;
+	flex-shrink: 0;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.o-footer-wrap {
+	display:flex;
+	flex-direction: column;
+	max-width: 75vw;
+	justify-content: center;
+	align-items: center;
+}
+
+.o-footer-wrap p, .o-footer-wrap h5 {
+	text-align: center;
+	margin: 10px 0;
+}
+
+.blog-wrap {
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 30px auto;
+}
+
+.blog-wrap__rss {
+	text-align: center;
+	font-style: italic;
+}
+
+.blog-year {
+	margin: 25px;
+	padding-bottom: 25px;
+}
+
+.blog-year:first-of-type {
+	margin-top: 0;
+}
+
+.blog-year:not(:last-of-type) {
+	border-bottom: 1.5px solid #bbb;	
+}
+
+.blog-year-header {
+	margin: 10px;
+}
+
+.blog-month {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.blog-month-header {
+	margin: 10px 10px;
+	width: 200px;
+}
+
+.blog-blog-posts {
+	margin: 10px 25px;
+	width: 100%;
+}
+
+.blog-blog-post-link {
+	margin-top: 10px;
+	display: block;
+}
+
+.blog-post {
+	max-width: 850px;
+	overflow: hidden;
+}
+
+.blog-post-title {
+	margin: 45px 0;
+}
+
+.blog-post .highlight {
+	overflow-x: scroll;
+	margin: calc(10vw / 2) 0;
+	padding: 10px;
+	background-color: #272822;
+	border-radius: 4px;
+}
+
+.blog-post pre {
+	font-family: Menlo, monospace;
+	font-size: 16px;
+	/* background: #36373d; */
+	/* border-radius: 4px; */
+	word-break: break-word;
+	padding: 1.2em 1.8em;
+	word-wrap: break-word;
+}
+
+.blog-post-date {
+	text-align: center;
+	font-style: italic;
+}
+
+.blog-post blockquote, .blog-post h1, .blog-post h2, .blog-post h3, .blog-post h4, .blog-post h5, .blog-post h6, .blog-post p, .blog-post pre {
+	margin: 20px 0;
+	line-height: 1.5rem;
+}
+
+.blog-post blockquote, .blog-post h1, .blog-post h2, .blog-post h3, .blog-post h4, .blog-post h5, .blog-post h6 {
+	margin-top: 40px;
+}
+
+.blog-post p, .blog-post ol, .blog-post li, .blog-post code {
+	font-size: 1.1rem;
+	
+}
+
+.blog-post ol, .blog-post li {
+	margin-left: 20px;
+}
+
+@media screen and (max-width: 850px) {
+	.o-header-nav {
+		padding-right: 25px;
+	}
+	main {
+		max-width: 100vw;
+	}
+	
+	.o-main-intro {
+		width: 76vw;
+	}
+	
+	.o-main-second {
+		width: 76vw;
+	}
+	
+	h1 {
+		font-size: 1.3rem;
+	}
+	.o-main-hoonigans-stats {
+		width:100vw;
+		overflow-x: hidden;
+	}
+	
+	.o-main-hoonigans-stats div {
+		width: unset;
+	}
+	
+	table {
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+	
+	table tbody {
+		width: 100%;
+	}
+	
+	.blog-wrap {
+		margin: 0 20px;	
+	}
+	
+	.blog-post .highlight {
+		width: 90vw;
+	}
+}
+

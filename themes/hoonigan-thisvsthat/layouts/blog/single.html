@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+
+<section class="blog-wrap">
+	<article class="blog-post">
+		<h2 class="blog-post-title">{{ .Title }}</h2>
+		{{ .Content }}
+		<p class="blog-post-date">{{ .Date.Format "2006-01-02" }}</p>
+	</article>
+</section>
+
+{{ partial "footer.html" . }}

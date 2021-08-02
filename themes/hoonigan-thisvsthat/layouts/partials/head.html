@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link href="/css/thisvsthat-styles.css" rel="stylesheet" />
+		<link rel="alternate" type="application/rss+xml" href="{{ "/races/index.xml" | absURL }}" title="thisvsthat.show RSS">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+		{{- if .IsHome }}
+		<title>{{ .Site.Title }}</title>
+		<meta name="Description" content="This vs That is a Hoonigan Show where they race this vs that and line up cars you otherwise would not expect to sit next to each other at a starting line.">
+		{{ else }}
+		<title>{{ .Title }} | {{ .Site.Title }}</title>
+		<meta name="Description" content="{{ .Description }}">
+		{{ end -}}</head>
+	<head>
+	<body>
