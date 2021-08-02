@@ -7,3 +7,5 @@ The domain was simply free and I figured I build some fun for myself and others 
 
 I hope that you will be able to find some value in the data that I collected and present on the website. Feel free to download the data yourself and either import it into run of the mill programs like Excel, heck maybe even Google Docs or import the `pg_dump` output of everything that I provide.
 
+## License
+The collective work in this repository, incl. the releases are licensed as CC BY-ND
