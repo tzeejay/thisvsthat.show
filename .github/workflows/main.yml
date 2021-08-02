@@ -3,7 +3,7 @@ name: Build Website
 on:
   push:
     branches: 
-      - master
+      - main
 
 jobs:
   build:
@@ -28,8 +28,8 @@ jobs:
     
     - name: Download & Install Hugo
       run: |
-        wget https://github.com/gohugoio/hugo/releases/download/v0.83.1/hugo_0.83.1_Linux-64bit.deb
-        sudo dpkg -i hugo_0.83.1_Linux-64bit.deb
+        wget https://github.com/gohugoio/hugo/releases/download/v0.86.1/hugo_0.83.1_Linux-64bit.deb
+        sudo dpkg -i hugo_0.86.1_Linux-64bit.deb
         hugo version
         
     - name: Build Website
@@ -45,5 +45,5 @@ jobs:
     - name: Copy Website to Pi
       env:
         SSH_AUTH_SOCK: /tmp/ssh_agent.sock
-      run: rsync -vr -I --delete-during ./pub/ pi@212.12.47.3:/usr/local/tzeejaycom/static_root/
+      run: rsync -vr -I --delete-during ./pub/ thisvsthat@212.12.47.3:/usr/local/thisvsthatshow/static_root/
 
