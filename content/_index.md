@@ -19,23 +19,23 @@ date = "2021-07-31"
 
 | "id" | "given_by"            | "correct_predictions" | "total_predictions" | "correct_percent" |
 | ---- | --------------------- | --------------------- | ------------------- | ----------------- |
-| 1    | "Gary King Jr"        | 1                     | 1                   | 100               |
-| 2    | "Alex Andonian "      | 1                     | 1                   | 100               |
+| 1    | "Seth Frye"           | 1                     | 1                   | 100               |
+| 2    | "Gary King Jr"        | 1                     | 1                   | 100               |
 | 3    | "Charlie Ashby"       | 1                     | 1                   | 100               |
 | 4    | "Emelia Hartford"     | 1                     | 1                   | 100               |
-| 5    | "Cole Powelson"       | 1                     | 1                   | 100               |
-| 6    | "Seth Frye"           | 1                     | 1                   | 100               |
-| 7    | "Ron Zaras"           | 37                    | 53                  | 69                |
+| 5    | "Alex Andonian "      | 1                     | 1                   | 100               |
+| 6    | "Cole Powelson"       | 1                     | 1                   | 100               |
+| 7    | "Ron Zaras"           | 37                    | 54                  | 68                |
 | 8    | "Darren Parsons"      | 2                     | 3                   | 66                |
-| 9    | "Suppy"               | 13                    | 20                  | 65                |
-| 10   | "Micah Diaz"          | 16                    | 25                  | 64                |
-| 11   | "Zac Mertens"         | 12                    | 19                  | 63                |
+| 9    | "Zac Mertens"         | 13                    | 20                  | 65                |
+| 10   | "Suppy"               | 13                    | 20                  | 65                |
+| 11   | "Micah Diaz"          | 16                    | 25                  | 64                |
 | 12   | "Hertrech Eugene Jr." | 23                    | 37                  | 62                |
-| 13   | "Vinny Anatra"        | 35                    | 57                  | 61                |
-| 14   | "Brian Scotto"        | 35                    | 58                  | 60                |
-| 15   | "John Chase"          | 14                    | 24                  | 58                |
-| 16   | "Dan Sommer"          | 29                    | 51                  | 56                |
-| 17   | "John Naderi"         | 22                    | 39                  | 56                |
+| 13   | "Brian Scotto"        | 36                    | 59                  | 61                |
+| 14   | "John Chase"          | 15                    | 25                  | 60                |
+| 15   | "Vinny Anatra"        | 35                    | 58                  | 60                |
+| 16   | "John Naderi"         | 22                    | 39                  | 56                |
+| 17   | "Dan Sommer"          | 29                    | 52                  | 55                |
 | 18   | "Larry Chen"          | 3                     | 9                   | 33                |
 | 19   | "Nick Iannotti"       | 0                     | 1                   | 0                 |
 | 20   | "Bryce Menzies"       | 0                     | 1                   | 0                 |
@@ -53,19 +53,18 @@ date = "2021-07-31"
 
 | "id" | "given_by"            | "correct_predictions" | "total_predictions" | "correct_percent" |
 | ---- | --------------------- | --------------------- | ------------------- | ----------------- |
-| 1    | "Ron Zaras"           | 37                    | 53                  | 69                |
+| 1    | "Ron Zaras"           | 37                    | 54                  | 68                |
 | 2    | "Darren Parsons"      | 2                     | 3                   | 66                |
 | 3    | "Suppy"               | 13                    | 20                  | 65                |
-| 4    | "Micah Diaz"          | 16                    | 25                  | 64                |
-| 5    | "Zac Mertens"         | 12                    | 19                  | 63                |
+| 4    | "Zac Mertens"         | 13                    | 20                  | 65                |
+| 5    | "Micah Diaz"          | 16                    | 25                  | 64                |
 | 6    | "Hertrech Eugene Jr." | 23                    | 37                  | 62                |
-| 7    | "Vinny Anatra"        | 35                    | 57                  | 61                |
-| 8    | "Brian Scotto"        | 35                    | 58                  | 60                |
-| 9    | "John Chase"          | 14                    | 24                  | 58                |
+| 7    | "Brian Scotto"        | 36                    | 59                  | 61                |
+| 8    | "John Chase"          | 15                    | 25                  | 60                |
+| 9    | "Vinny Anatra"        | 35                    | 58                  | 60                |
 | 10   | "John Naderi"         | 22                    | 39                  | 56                |
-| 11   | "Dan Sommer"          | 29                    | 51                  | 56                |
+| 11   | "Dan Sommer"          | 29                    | 52                  | 55                |
 | 12   | "Larry Chen"          | 3                     | 9                   | 33                |
-
 </div>
 
 <!-- <div class="o-main-hoonigan-stats__30-perc">
@@ -91,12 +90,12 @@ date = "2021-07-31"
 
 | "id" | "given_by"            | "correct_predictions" | "total_predictions" | "correct_percent" |
 | ---- | --------------------- | --------------------- | ------------------- | ----------------- |
-| 1    | "Ron Zaras"           | 37                    | 53                  | 69                |
+| 1    | "Ron Zaras"           | 37                    | 54                  | 68                |
 | 2    | "Hertrech Eugene Jr." | 23                    | 37                  | 62                |
-| 3    | "Vinny Anatra"        | 35                    | 57                  | 61                |
-| 4    | "Brian Scotto"        | 35                    | 58                  | 60                |
-| 5    | "Dan Sommer"          | 29                    | 51                  | 56                |
-| 6    | "John Naderi"         | 22                    | 39                  | 56                |
+| 3    | "Brian Scotto"        | 36                    | 59                  | 61                |
+| 4    | "Vinny Anatra"        | 35                    | 58                  | 60                |
+| 5    | "John Naderi"         | 22                    | 39                  | 56                |
+| 6    | "Dan Sommer"          | 29                    | 52                  | 55                |
 
 </div>
 
@@ -106,10 +105,10 @@ date = "2021-07-31"
 
 | "id" | "given_by"     | "correct_predictions" | "total_predictions" | "correct_percent" |
 | ---- | -------------- | --------------------- | ------------------- | ----------------- |
-| 1    | "Ron Zaras"    | 37                    | 53                  | 69                |
-| 2    | "Vinny Anatra" | 35                    | 57                  | 61                |
-| 3    | "Brian Scotto" | 35                    | 58                  | 60                |
-| 4    | "Dan Sommer"   | 29                    | 51                  | 56                |
+| 1    | "Ron Zaras"    | 37                    | 54                  | 68                |
+| 2    | "Brian Scotto" | 36                    | 59                  | 61                |
+| 3    | "Vinny Anatra" | 35                    | 58                  | 60                |
+| 4    | "Dan Sommer"   | 29                    | 52                  | 55                |
 
 </div>
 
