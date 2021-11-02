@@ -32,12 +32,12 @@ date = "2021-07-31"
 | 11   | "Suppy"               | 15                    | 23                  | 65                |
 | 12   | "Zac Mertens"         | 13                    | 20                  | 65                |
 | 13   | "Brian Scotto"        | 36                    | 59                  | 61                |
-| 14   | "John Chase"          | 15                    | 25                  | 60                |
-| 15   | "Micah Diaz"          | 18                    | 31                  | 58                |
-| 16   | "Hertrech Eugene Jr." | 24                    | 41                  | 58                |
-| 17   | "John Naderi"         | 25                    | 45                  | 55                |
-| 18   | "Vinny Anatra"        | 35                    | 64                  | 54                |
-| 19   | "Dan Sommer"          | 30                    | 57                  | 52                |
+| 14   | "Micah Diaz"          | 19                    | 31                  | 61                |
+| 15   | "John Chase"          | 15                    | 25                  | 60                |
+| 16   | "Hertrech Eugene Jr." | 25                    | 41                  | 60                |
+| 17   | "John Naderi"         | 26                    | 45                  | 57                |
+| 18   | "Dan Sommer"          | 31                    | 57                  | 54                |
+| 19   | "Vinny Anatra"        | 35                    | 64                  | 54                |
 | 20   | "Larry Chen"          | 3                     | 9                   | 33                |
 | 21   | "Nick Iannotti"       | 0                     | 1                   | 0                 |
 | 22   | "Bryce Menzies"       | 0                     | 1                   | 0                 |
@@ -59,15 +59,15 @@ date = "2021-07-31"
 | ---- | --------------------- | --------------------- | ------------------- | ----------------- |
 | 1    | "Ron Zaras"           | 37                    | 54                  | 68                |
 | 2    | "Darren Parsons"      | 2                     | 3                   | 66                |
-| 3    | "Suppy"               | 15                    | 23                  | 65                |
-| 4    | "Zac Mertens"         | 13                    | 20                  | 65                |
-| 5    | "Brian Scotto"        | 36                    | 59                  | 61                |
-| 6    | "John Chase"          | 15                    | 25                  | 60                |
-| 7    | "Micah Diaz"          | 18                    | 31                  | 58                |
-| 8    | "Hertrech Eugene Jr." | 24                    | 41                  | 58                |
-| 9    | "John Naderi"         | 25                    | 45                  | 55                |
-| 10   | "Vinny Anatra"        | 35                    | 64                  | 54                |
-| 11   | "Dan Sommer"          | 30                    | 57                  | 52                |
+| 3    | "Zac Mertens"         | 13                    | 20                  | 65                |
+| 4    | "Suppy"               | 15                    | 23                  | 65                |
+| 5    | "Micah Diaz"          | 19                    | 31                  | 61                |
+| 6    | "Brian Scotto"        | 36                    | 59                  | 61                |
+| 7    | "Hertrech Eugene Jr." | 25                    | 41                  | 60                |
+| 8    | "John Chase"          | 15                    | 25                  | 60                |
+| 9    | "John Naderi"         | 26                    | 45                  | 57                |
+| 10   | "Dan Sommer"          | 31                    | 57                  | 54                |
+| 11   | "Vinny Anatra"        | 35                    | 64                  | 54                |
 | 12   | "Larry Chen"          | 3                     | 9                   | 33                |
 
 </div>
@@ -97,11 +97,11 @@ date = "2021-07-31"
 | ---- | --------------------- | --------------------- | ------------------- | ----------------- |
 | 1    | "Ron Zaras"           | 37                    | 54                  | 68                |
 | 2    | "Brian Scotto"        | 36                    | 59                  | 61                |
-| 3    | "Micah Diaz"          | 18                    | 31                  | 58                |
-| 4    | "Hertrech Eugene Jr." | 24                    | 41                  | 58                |
-| 5    | "John Naderi"         | 25                    | 45                  | 55                |
-| 6    | "Vinny Anatra"        | 35                    | 64                  | 54                |
-| 7    | "Dan Sommer"          | 30                    | 57                  | 52                |
+| 3    | "Micah Diaz"          | 19                    | 31                  | 61                |
+| 4    | "Hertrech Eugene Jr." | 25                    | 41                  | 60                |
+| 5    | "John Naderi"         | 26                    | 45                  | 57                |
+| 6    | "Dan Sommer"          | 31                    | 57                  | 54                |
+| 7    | "Vinny Anatra"        | 35                    | 64                  | 54                |
 
 </div>
 
@@ -113,8 +113,8 @@ date = "2021-07-31"
 | ---- | -------------- | --------------------- | ------------------- | ----------------- |
 | 1    | "Ron Zaras"    | 37                    | 54                  | 68                |
 | 2    | "Brian Scotto" | 36                    | 59                  | 61                |
-| 3    | "Vinny Anatra" | 35                    | 64                  | 54                |
-| 4    | "Dan Sommer"   | 30                    | 57                  | 52                |
+| 3    | "Dan Sommer"   | 31                    | 57                  | 54                |
+| 4    | "Vinny Anatra" | 35                    | 64                  | 54                |
 
 </div>
 
