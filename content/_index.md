@@ -4,7 +4,6 @@ Description = "A series about racing this vs. that"
 date = "2021-07-31"
 +++
 
-
 <div class="o-main-intro">
 	<h1>Have you ever asked yourself which one of the Hoonigans is best at predicting the race winner on <a href="https://www.youtube.com/playlist?list=PLhU72li4fhIca_hXD0v8PFHRahreBuPJa" target="_blank">This vs. That</a> ?</h1>
 </div>
