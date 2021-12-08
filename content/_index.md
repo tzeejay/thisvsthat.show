@@ -26,17 +26,17 @@ date = "2021-07-31"
 | 6    | "Alex Hernandez"      | 1                     | 1                   | 100               |
 | 7    | "Emelia Hartford"     | 1                     | 1                   | 100               |
 | 8    | "Charlie Ashby"       | 1                     | 1                   | 100               |
-| 9    | "Ron Zaras"           | 39                    | 56                  | 69                |
+| 9    | "Ron Zaras"           | 40                    | 57                  | 70                |
 | 10   | "Darren Parsons"      | 2                     | 3                   | 66                |
 | 11   | "Suppy"               | 18                    | 28                  | 64                |
-| 12   | "Brian Scotto"        | 38                    | 61                  | 62                |
-| 13   | "John Chase"          | 16                    | 26                  | 61                |
-| 14   | "John Naderi"         | 29                    | 48                  | 60                |
-| 15   | "Hertrech Eugene Jr." | 28                    | 46                  | 60                |
+| 12   | "Brian Scotto"        | 39                    | 62                  | 62                |
+| 13   | "Hertrech Eugene Jr." | 29                    | 47                  | 61                |
+| 14   | "John Chase"          | 16                    | 26                  | 61                |
+| 15   | "John Naderi"         | 29                    | 48                  | 60                |
 | 16   | "Zac Mertens"         | 13                    | 22                  | 59                |
 | 17   | "Micah Diaz"          | 20                    | 35                  | 57                |
-| 18   | "Vinny Anatra"        | 37                    | 68                  | 54                |
-| 19   | "Dan Sommer"          | 32                    | 62                  | 51                |
+| 18   | "Vinny Anatra"        | 38                    | 69                  | 55                |
+| 19   | "Dan Sommer"          | 33                    | 63                  | 52                |
 | 20   | "Larry Chen"          | 3                     | 9                   | 33                |
 | 21   | "Nick Iannotti"       | 0                     | 1                   | 0                 |
 | 22   | "Bryce Menzies"       | 0                     | 1                   | 0                 |
@@ -56,17 +56,17 @@ date = "2021-07-31"
 
 | "id" | "given_by"            | "correct_predictions" | "total_predictions" | "correct_percent" |
 | ---- | --------------------- | --------------------- | ------------------- | ----------------- |
-| 1    | "Ron Zaras"           | 39                    | 56                  | 69                |
+| 1    | "Ron Zaras"           | 40                    | 57                  | 70                |
 | 2    | "Darren Parsons"      | 2                     | 3                   | 66                |
 | 3    | "Suppy"               | 18                    | 28                  | 64                |
-| 4    | "Brian Scotto"        | 38                    | 61                  | 62                |
-| 5    | "John Chase"          | 16                    | 26                  | 61                |
-| 6    | "Hertrech Eugene Jr." | 28                    | 46                  | 60                |
+| 4    | "Brian Scotto"        | 39                    | 62                  | 62                |
+| 5    | "Hertrech Eugene Jr." | 29                    | 47                  | 61                |
+| 6    | "John Chase"          | 16                    | 26                  | 61                |
 | 7    | "John Naderi"         | 29                    | 48                  | 60                |
 | 8    | "Zac Mertens"         | 13                    | 22                  | 59                |
 | 9    | "Micah Diaz"          | 20                    | 35                  | 57                |
-| 10   | "Vinny Anatra"        | 37                    | 68                  | 54                |
-| 11   | "Dan Sommer"          | 32                    | 62                  | 51                |
+| 10   | "Vinny Anatra"        | 38                    | 69                  | 55                |
+| 11   | "Dan Sommer"          | 33                    | 63                  | 52                |
 | 12   | "Larry Chen"          | 3                     | 9                   | 33                |
 
 </div>
@@ -77,13 +77,13 @@ date = "2021-07-31"
 
 | "id" | "given_by"            | "correct_predictions" | "total_predictions" | "correct_percent" |
 | ---- | --------------------- | --------------------- | ------------------- | ----------------- |
-| 1    | "Ron Zaras"           | 39                    | 56                  | 69                |
-| 2    | "Brian Scotto"        | 38                    | 61                  | 62                |
-| 3    | "John Naderi"         | 29                    | 48                  | 60                |
-| 4    | "Hertrech Eugene Jr." | 28                    | 46                  | 60                |
+| 1    | "Ron Zaras"           | 40                    | 57                  | 70                |
+| 2    | "Brian Scotto"        | 39                    | 62                  | 62                |
+| 3    | "Hertrech Eugene Jr." | 29                    | 47                  | 61                |
+| 4    | "John Naderi"         | 29                    | 48                  | 60                |
 | 5    | "Micah Diaz"          | 20                    | 35                  | 57                |
-| 6    | "Vinny Anatra"        | 37                    | 68                  | 54                |
-| 7    | "Dan Sommer"          | 32                    | 62                  | 51                |
+| 6    | "Vinny Anatra"        | 38                    | 69                  | 55                |
+| 7    | "Dan Sommer"          | 33                    | 63                  | 52                |
 
 </div>
 
@@ -93,10 +93,10 @@ date = "2021-07-31"
 
 | "id" | "given_by"     | "correct_predictions" | "total_predictions" | "correct_percent" |
 | ---- | -------------- | --------------------- | ------------------- | ----------------- |
-| 1    | "Ron Zaras"    | 39                    | 56                  | 69                |
-| 2    | "Brian Scotto" | 38                    | 61                  | 62                |
-| 3    | "Vinny Anatra" | 37                    | 68                  | 54                |
-| 4    | "Dan Sommer"   | 32                    | 62                  | 51                |
+| 1    | "Ron Zaras"    | 40                    | 57                  | 70                |
+| 2    | "Brian Scotto" | 39                    | 62                  | 62                |
+| 3    | "Vinny Anatra" | 38                    | 69                  | 55                |
+| 4    | "Dan Sommer"   | 33                    | 63                  | 52                |
 
 </div>
 
