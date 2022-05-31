@@ -28,8 +28,8 @@ jobs:
     
     - name: Download & Install Hugo
       run: |
-        wget https://github.com/gohugoio/hugo/releases/download/v0.86.1/hugo_0.86.1_Linux-64bit.deb
-        sudo dpkg -i hugo_0.86.1_Linux-64bit.deb
+        wget https://github.com/gohugoio/hugo/releases/download/v0.91.2/hugo_0.91.2_Linux-64bit.deb
+        sudo dpkg -i hugo_0.91.2_Linux-64bit.deb
         hugo version
         
     - name: Build Website
